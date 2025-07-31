@@ -29,7 +29,7 @@ const App = () =>{
  const handleLogin = (email, password) => {
   if (email === 'admin@1.com' && password === '12345') {
     setUser('admin');
-    localStorage.setItem('loggedInUser', JSON.stringify({ role: 'admin' }));
+    localStorage.setItem('loggedInUser', JSON.stringify({ role: 'admin', data:'admin' }));
     toast.success("Welcome Admin");
   } else if (userData) {
     const employee = userData.find((e) => email === e.email && password === e.password);

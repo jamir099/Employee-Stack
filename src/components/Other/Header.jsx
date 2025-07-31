@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Header = ({ data, changeUser }) => {
+
+  
 
   const logOutUser = () => {
     localStorage.setItem("loggedInUser", "");    
@@ -8,9 +10,11 @@ const Header = ({ data, changeUser }) => {
    
   };
 
+    
   return (
     <div className="flex items-end justify-between">
       <h1 className="text-2xl font-semibold text-white drop-shadow">Hello {data?.name || "Admin"} !</h1>
+      
 
       <button
         onClick={logOutUser}

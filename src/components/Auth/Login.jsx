@@ -83,7 +83,8 @@ const Login = ({ handleLogin }) => {
         <p>
           🚀 <span className="font-bold text-emerald-800">Employe|Stack</span> is an Employee Management System with two dashboards: <br />
           👨‍🔧 Employee (emp@1.com / 123) | 👨‍💼 Admin (admin@1.com / 12345) <br />
-          👨‍🔧 Employee : Can see tasks | 👨‍💼 Admin : Can see and update tasks
+          👨‍🔧 Employee : Can see tasks | 👨‍💼 Admin : Can see and update tasks <br />
+          📌 Note : This is a React.js based Fronted project with localStorage() store data.
         </p>
       </footer>
     </div>
