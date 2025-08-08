@@ -1,6 +1,6 @@
-# Employee Management System
+# Employee-Stack
 
-A modern, user-friendly Employee Management System built with ReactJS. This project streamlines task management for professionals, making workloads more manageable and accessible.
+A modern, user-friendly Employee Management System built with ReactJS and styled with TailwindCSS. This project streamlines task management for professionals, making workloads more manageable and accessible.
 
 **Login Page :**
 <img width="1364" height="685" alt="Screenshot (294)" src="https://github.com/user-attachments/assets/56afcee4-43f8-4917-8a30-c1f7f0dbd291" />
@@ -24,7 +24,7 @@ Empower teams to efficiently track and manage tasks, improving productivity and 
 
 ## Technologies Used
 
-- **Frontend:** ReactJS  
+- **Frontend:** ReactJS and TailwindCSS  
 - **Storage:** LocalStorage (no backend required)
 
 ## Getting Started
